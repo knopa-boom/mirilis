@@ -4,25 +4,20 @@
     padding: 0;
     margin: 0;
 }
-
 /* Задаем стиль шрифта на всей странице */
 body {
     font-family: 'Raleway', sans-serif;
 }
-
 /* Убираем у ссылки подчеркивание */
 a {
     text-decoration: none;
 }
-
 /* Убираем у списка маркировку и подчеркивание */
 li {
     text-decoration: none;
     list-style: none;
 }
-
 /* -------------------HEADER---------------------------- */
-
 /* Стилизуем наш логотип */
 .logo {
     background: #000000;
@@ -361,8 +356,6 @@ textarea {
     grid-template-columns: auto auto;
     grid-gap: 50px 100px;
 }
-
-
 
 /* Медиа-запросы */
 @media screen and (max-width: 768px) {
